@@ -30,7 +30,25 @@ set installer=vs_community.exe: Sets the variable installer to the name of the V
 
 set layoutDir=C:\vs2022: Sets the variable layoutDir to the directory where you want to create the offline installation layout. Change the path if you want to use a different directory.
 
-set lang=en-US: Sets the variable lang to the desired language for the installation (in this case, English - United States). Modify this if you need a different language.
+set lang=en-US: Sets the variable lang to the desired language for the installation (in this case, English - United States). 
+Modify this if you need a different language.
+
+ISO CODE  |  LANGUAGE  |
+-----------------------|
+cs-CZ	    |  Czech
+de-DE	    |  German
+en-US	    |  English
+es-ES	    |  Spanish
+fr-FR	    |  French
+it-IT	    |  Italian
+ja-JP	    |  Japanese
+ko-KR	    |  Korean
+pl-PL	    |  Polish
+pt-BR	    |  Portuguese - Brazil
+ru-RU	    |  Russian
+tr-TR	    |  Turkish
+zh-CN	    |  Chinese - Simplified
+zh-TW	    |  Chinese - Traditional
 
 echo Creating offline installation layout...: Prints a message to the console indicating that the script is currently creating the offline installation layout.
 
