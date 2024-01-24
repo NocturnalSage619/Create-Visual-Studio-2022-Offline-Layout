@@ -3,6 +3,7 @@
 The provided script is a batch script (.bat) designed to automate the creation of an offline installation layout for Visual Studio 2022 Community edition. This layout allows you to download all the necessary installation files and dependencies to a specified directory, making it possible to install Visual Studio later without an internet connection. 
 
 REM ----------------------BEGIN----------------------
+
 @echo off
 set installer=vs_community.exe
 set layoutDir=C:\vs2022
@@ -13,6 +14,7 @@ echo Creating offline installation layout...
 %installer% --layout %layoutDir% --lang %lang%
 
 echo Offline installation layout created successfully.
+
 REM ----------------------END----------------------
 
 Here's a step-by-step explanation of the script:
