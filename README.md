@@ -5,8 +5,11 @@ The provided script is a batch script (.bat) designed to automate the creation o
 REM ----------------------BEGIN----------------------
 
 @echo off
+
 set installer=vs_community.exe
+
 set layoutDir=C:\vs2022
+
 set lang=en-US
 
 echo Creating offline installation layout...
